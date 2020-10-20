@@ -2,7 +2,7 @@ def reverse_each_word(sentence)
   words = sentence.split(" ")
   revSentence = ""
   words.each do |element|
-    revSentence += element.reverse
+    revSentence += "#{element.reverse} "
   end 
   revSentence
 end 
